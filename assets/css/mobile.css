@@ -1,0 +1,62 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main_content {
+  width: 100%;
+  margin-top: 8rem;
+  background-color: var(--bg-white);
+  border-radius: 2rem;
+  box-shadow: 1rem 1rem 10rem rgba(0, 0, 0, 0.5);
+}
+
+.desktop .box {
+  display: none;
+}
+
+.image_holder {
+  /* to center the photo */
+  display: flex;
+  justify-content: center;
+  margin-top: -17rem;
+}
+
+.image_holder .mobile {
+  background-image: url("../images/bg-pattern-mobile.svg");
+  background-position: top 17rem right 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.mobile .woman {
+  width: 30rem;
+  height: 30rem;
+}
+
+.faq_container {
+  padding: 1rem 0 0 0;
+  height: 30rem;
+  margin-right: 1.3rem;
+}
+
+.faq_title {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.accordion {
+  margin: 0 1.5rem;
+  padding: 0.5rem;
+  border-bottom: 0.1rem solid var(--light-grayish-blue);
+}
+
+.question_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.question {
+  margin-bottom: 0.5rem;
+}

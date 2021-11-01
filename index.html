@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is a solution to the FAQ accordion card component challenge from fontend mentor"
+    />
+    <meta name="keyword" content="html, css, flexbox, grid, javascript" />
+    <meta name="author" content="melvin" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./assets/css/baselayout.css" />
+
+    <link
+      rel="stylesheet"
+      href="./assets/css/1280.css"
+      media="(width:1280px)"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./assets/css/mobile.css"
+      media="(min-width:80px) and (max-width:680px)"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./assets/css/ipadstablets.css"
+      media="(min-width:681px) and (max-width:810px)"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./assets/css/smallscreenlaptops.css"
+      media="(min-width:811px) and (max-width:1024px)"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./assets/css/desktop.css"
+      media="(min-width:1025px) and (max-width:1279px)"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./assets/css/bigscreen.css"
+      media="(min-width:1281px) and (max-width: 1559px)"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./assets/css/biggerscreen.css"
+      media="(min-width:1560px) and (max-width:2560px)"
+    />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <main class="main_content">
+        <div class="image_holder">
+          <picture class="desktop mobile">
+            <img
+              src="./assets/images/illustration-box-desktop.svg"
+              alt="illustration box"
+              class="box"
+            />
+
+            <img
+              src="./assets/images/illustration-woman-online-mobile.svg"
+              alt="woman"
+              class="woman"
+            />
+          </picture>
+        </div>
+
+        <div class="faq_container">
+          <h1 class="faq_title">FAQ</h1>
+
+          <div class="accordion">
+            <div class="question_container">
+              <p class="question">How many team members can I invite?</p>
+
+              <p class="arrow">
+                <img
+                  src="./assets/images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="icon_arrow"
+                />
+              </p>
+            </div>
+
+            <p class="answer">
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </p>
+          </div>
+
+          <div class="accordion">
+            <div class="question_container">
+              <p class="question">What is the maximum file upload size?</p>
+              <p class="arrow">
+                <img
+                  src="./assets/images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="icon_arrow"
+                />
+              </p>
+            </div>
+
+            <p class="answer">
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </p>
+          </div>
+
+          <div class="accordion">
+            <div class="question_container">
+              <p class="question">How do I reset my password?</p>
+              <p class="arrow">
+                <img
+                  src="./assets/images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="icon_arrow"
+                />
+              </p>
+            </div>
+
+            <p class="answer">
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </p>
+          </div>
+
+          <div class="accordion">
+            <div class="question_container">
+              <p class="question">Can I cancel my subscription?</p>
+              <p class="arrow">
+                <img
+                  src="./assets/images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="icon_arrow"
+                />
+              </p>
+            </div>
+
+            <p class="answer">
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </p>
+          </div>
+
+          <div class="accordion">
+            <div class="question_container">
+              <p class="question">Do you provide additional support?</p>
+              <p class="arrow">
+                <img
+                  src="./assets/images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="icon_arrow"
+                />
+              </p>
+            </div>
+
+            <p class="answer">
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">boymelvs</a>.
+      </footer>
+
+      <script src="./scripts/script.js"></script>
+    </div>
+  </body>
+</html>
