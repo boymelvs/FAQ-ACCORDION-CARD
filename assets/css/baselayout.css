@@ -1,6 +1,6 @@
 /* @import url("https://fonts.google.com/specimen/Kumbh+Sans"); */
 
-@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 
 *,
 ::before,
@@ -64,15 +64,11 @@ footer {
 }
 
 .attribution a {
-  color: #fff;
+  color: var(--hover-color);
   text-decoration: none;
 }
 
-/* ================= ================= =================
-
-  ================= adding class for js =================
-
-   ================= ================= ================= */
+/* ================= class for js ================= */
 
 .question:hover {
   cursor: pointer;
@@ -133,13 +129,13 @@ footer {
 
 /* ================= answer animation ================= */
 .answer {
-  animation: closeAnswer 250ms ease-in-out;
-  animation-fill-mode: forwards;
+  display: none;
 }
 
 .answer.active {
   animation: openAnswer 350ms;
   animation-fill-mode: forwards;
+  display: unset;
 }
 
 @keyframes openAnswer {
@@ -147,28 +143,11 @@ footer {
     opacity: 0;
   }
 
-  90% {
+  10% {
     opacity: 0.1;
   }
 
   100% {
     opacity: 1;
-  }
-}
-
-@keyframes closeAnswer {
-  0% {
-    opacity: 1;
-    height: auto;
-  }
-
-  90% {
-    opacity: 0.1;
-    height: auto;
-  }
-
-  100% {
-    opacity: 0;
-    height: 0;
   }
 }
